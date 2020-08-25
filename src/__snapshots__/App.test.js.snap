@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`todo snapshot test 1`] = `
+<div
+  className="App"
+>
+  <h1>
+    Todos
+  </h1>
+  <form
+    className="to-do-form"
+    onSubmit={[Function]}
+  >
+    <input
+      placeholder="Add new task"
+      type="text"
+    />
+    <button
+      className="arrow-buton"
+    >
+      <i
+        aria-hidden="true"
+        class="fa fa-arrow-right"
+      />
+    </button>
+  </form>
+  <div
+    className="list"
+  >
+    <ul />
+  </div>
+</div>
+`;
