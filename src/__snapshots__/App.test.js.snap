@@ -12,8 +12,10 @@ exports[`todo snapshot test 1`] = `
     onSubmit={[Function]}
   >
     <input
+      onChange={[Function]}
       placeholder="Add new task"
       type="text"
+      value=""
     />
     <button
       className="arrow-buton"
@@ -25,9 +27,14 @@ exports[`todo snapshot test 1`] = `
     </button>
   </form>
   <div
-    className="list"
+    className="todos"
   >
-    <ul />
+    All(
+    0
+    )
   </div>
+  <div
+    className="list"
+  />
 </div>
 `;
